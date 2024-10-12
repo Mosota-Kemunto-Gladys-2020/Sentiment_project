@@ -23,8 +23,19 @@ Key challenges include:
 
 Solving this problem will help brands enhance their reputation management, respond promptly to consumer feedback, and optimize their marketing strategies based on real-time sentiment analysis.
 
-![alt text](image.png)
-
+tweet_text	emotion_in_tweet_is_directed_at	is_there_an_emotion_directed_at_a_brand_or_product
+0	.@wesley83 I have a 3G iPhone. After 3 hrs twe...	iPhone	Negative emotion
+1	@jessedee Know about @fludapp ? Awesome iPad/i...	iPad or iPhone App	Positive emotion
+2	@swonderlin Can not wait for #iPad 2 also. The...	iPad	Positive emotion
+3	@sxsw I hope this year's festival isn't as cra...	iPad or iPhone App	Negative emotion
+4	@sxtxstate great stuff on Fri #SXSW: Marissa M...	Google	Positive emotion
+...	...	...	...
+9088	Ipad everywhere. #SXSW {link}	iPad	Positive emotion
+9089	Wave, buzz... RT @mention We interrupt your re...	NaN	No emotion toward brand or product
+9090	Google's Zeiger, a physician never reported po...	NaN	No emotion toward brand or product
+9091	Some Verizon iPhone customers complained their...	NaN	No emotion toward brand or product
+9092	Ï¡Ïàü_ÊÎÒ£Áââ_£â_ÛâRT @...	NaN	No emotion toward brand or product
+9093 rows × 3 columns
 
 
 
