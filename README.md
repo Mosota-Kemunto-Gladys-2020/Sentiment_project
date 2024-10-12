@@ -23,7 +23,7 @@ Key challenges include:
 
 Solving this problem will help brands enhance their reputation management, respond promptly to consumer feedback, and optimize their marketing strategies based on real-time sentiment analysis.
 
-
+![alt text](image.png)
 
 
 
