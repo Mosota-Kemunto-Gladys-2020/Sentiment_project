@@ -78,20 +78,12 @@ We then  removed class imbalances and the following is the summary of our result
 
 6. Use SVM with class weighting as the primary model for both binary and multi-class sentiment analysis tasks.
 
+## Conclusion:
+- **SVM as the Best Model**: SVM with class weighting provided the highest accuracy and F1 scores for both binary and multi-class classifications, making it the best model for this sentiment analysis task.
+- **Class Imbalance Impact**: Handling class imbalances significantly improved model performance, particularly for the minority class (negative sentiment). This highlights the importance of addressing class imbalance in sentiment analysis tasks.
+- **Challenges in Textual Variations and Context**: The model faces challenges in handling the informal language and sentiment subtleties commonly seen in social media posts, emphasizing the need for more context-aware models.
 
-## Conclusion
-
-After processing the data and applying machine learning models, including logistic Regression, Random Forest, and XGBoost, we were able to:
-
-
-    Evaluate Model Performance: We assessed the models using accuracy, confusion matrices, and classification reports. This allowed us to determine how well each model performed in classifying the different sentiments.
-    Hyperparameter Tuning: We optimized model parameters to improve predictive performance. The tuned models offered better accuracy and insights into sentiment classification.
-    Key Findings
-
-Recommendations
-
-    Focus on Neutral Sentiment:
-        Engagement Strategies: Develop strategies to engage users who express neutrality. Target these consumers with tailored content that can potentially shift their sentiment to positive.
-
-        Enhance Positive Sentiment:
-        Amplify Positive Feedback: Promote positive sentiments in marketing campaigns and leverage testimonials from satisfied customers to enhance brand image.
+## Recommendations:
+- **Primary Model Selection**: Based on the evaluation, SVM with class weighting consistently performed the best in both binary and multi-class classification tasks. It should be the preferred model for future sentiment analysis on this dataset.
+- **Handling Class Imbalances**: The results show that class weighting slightly outperforms SMOTE in most cases. Therefore, use class weighting as the primary technique for handling class imbalances in future models.
+- **Further Data Collection**: Given the limitations of dataset size and class imbalance, collecting a larger and more balanced dataset would greatly improve the model's performance and generalization. Consider incorporating more diverse data sources.
