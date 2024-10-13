@@ -1,6 +1,6 @@
 # Sentiment_project
 
-![Google and Apple products](Untitled.jpg)
+![Google and Apple products](Introimage.jpg)
 
 ## 1. Project Overview
 
@@ -25,7 +25,7 @@ Key challenges include:
 
 Solving this problem will help brands enhance their reputation management, respond promptly to consumer feedback, and optimize their marketing strategies based on real-time sentiment analysis.
 
-![alt text](image-1.png)
+![alt text](Datadistribution.png)
 9093 rows × 3 columns
 
 
@@ -77,6 +77,7 @@ We then  removed class imbalances and the following is the summary of our result
 5. Neural Networks performed well in binary classification but lagged in multi-class scenarios.
 
 6. Use SVM with class weighting as the primary model for both binary and multi-class sentiment analysis tasks.
+![alt text]sentimentdistribution.png)
 
 Conclusion
 After processing the data and applying machine learning models, including Logistic Regression, Random Forest, and XGBoost, we were able to:
