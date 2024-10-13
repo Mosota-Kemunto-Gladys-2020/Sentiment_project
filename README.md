@@ -1,6 +1,5 @@
 # Sentiment_project
-
-![Google and Apple products](Introimage.jpg)
+![header](Images/Introimage.jpg)
 
 ## 1. Project Overview
 
@@ -25,7 +24,7 @@ Key challenges include:
 
 Solving this problem will help brands enhance their reputation management, respond promptly to consumer feedback, and optimize their marketing strategies based on real-time sentiment analysis.
 
-![alt text](Datadistribution.png)
+![dataprep1](Images/Datadistribution.png)
 9093 rows × 3 columns
 
 
@@ -33,7 +32,7 @@ In this project,we took sentiment as our target variable and tweets as our indep
 
 We also did a multiple classification  investigating effects of neutral sentiments. The following is a table for multiple classification:
 
-![alt text](sentimentdistribution.png)
+![dataprep2](Images/sentimentdistribution.png)
 
 We then  removed class imbalances and the following is the summary of our results:
 
