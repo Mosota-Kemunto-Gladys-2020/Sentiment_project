@@ -1,5 +1,7 @@
 # Sentiment_project
 
+![Google and Apple products](Introimage.jpg)
+
 ## 1. Project Overview
 
 This project aims to develop a Natural Language Processing (NLP) model to analyze sentiment in Tweets related to Apple and Google products. By classifying the sentiment of these Tweets as positive, negative, or neutral, the model will provide valuable insights into public perception, aiding businesses in marketing strategies and product development.
@@ -23,30 +25,15 @@ Key challenges include:
 
 Solving this problem will help brands enhance their reputation management, respond promptly to consumer feedback, and optimize their marketing strategies based on real-time sentiment analysis.
 
-
-
-
-
-
-
-
-
+![alt text](Datadistribution.png)
+9093 rows × 3 columns
 
 
 In this project,we took sentiment as our target variable and tweets as our independent variable. Initially we did a binary classification of positive and negative sentiments.
 
-
-
-
-
-
-
-
-
 We also did a multiple classification  investigating effects of neutral sentiments. The following is a table for multiple classification:
 
-
-
+![alt text](sentimentdistribution.png)
 
 We then  removed class imbalances and the following is the summary of our results:
 
@@ -77,8 +64,7 @@ We then  removed class imbalances and the following is the summary of our result
 | XGBoost             | 0.8909        | 0.8779        | 0.8909           | 0.8847           |
 
 
-
-#### Results Summary Analysis:
+### Results Summary Analysis:
 
 1. Handling class imbalances significantly improved model performance, especially for the minority class (negative emotions).
 
@@ -91,3 +77,21 @@ We then  removed class imbalances and the following is the summary of our result
 5. Neural Networks performed well in binary classification but lagged in multi-class scenarios.
 
 6. Use SVM with class weighting as the primary model for both binary and multi-class sentiment analysis tasks.
+
+
+## Conclusion
+
+After processing the data and applying machine learning models, including logistic Regression, Random Forest, and XGBoost, we were able to:
+
+
+    Evaluate Model Performance: We assessed the models using accuracy, confusion matrices, and classification reports. This allowed us to determine how well each model performed in classifying the different sentiments.
+    Hyperparameter Tuning: We optimized model parameters to improve predictive performance. The tuned models offered better accuracy and insights into sentiment classification.
+    Key Findings
+
+Recommendations
+
+    Focus on Neutral Sentiment:
+        Engagement Strategies: Develop strategies to engage users who express neutrality. Target these consumers with tailored content that can potentially shift their sentiment to positive.
+
+        Enhance Positive Sentiment:
+        Amplify Positive Feedback: Promote positive sentiments in marketing campaigns and leverage testimonials from satisfied customers to enhance brand image.
