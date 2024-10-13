@@ -1,7 +1,7 @@
 # Sentiment_project
 
 <h1 align="center">
-  <img src="Images/Introimage.jpg" alt="header" style="width: 100%; max-width: 100%;" />
+  <img src="Images/Introimage.jpg" alt="header" style="width: 80%; max-width: 75%;" />
 </h1>
 
 
