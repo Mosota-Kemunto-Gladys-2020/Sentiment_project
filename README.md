@@ -77,7 +77,7 @@ We then  removed class imbalances and the following is the summary of our result
 5. Neural Networks performed well in binary classification but lagged in multi-class scenarios.
 
 6. Use SVM with class weighting as the primary model for both binary and multi-class sentiment analysis tasks.
-![alt text]sentimentdistribution.png)
+![alt text](sentimentdistribution.png)
 
 Conclusion
 After processing the data and applying machine learning models, including Logistic Regression, Random Forest, and XGBoost, we were able to:
