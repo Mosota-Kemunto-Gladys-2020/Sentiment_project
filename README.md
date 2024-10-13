@@ -63,8 +63,9 @@ We then  removed class imbalances and the following is the summary of our result
 | XGBoost             | 0.8909        | 0.8779        | 0.8909           | 0.8847           |
 
 
+### Results Summary Analysis:
 
-#### Results Summary Analysis:
+1. Handling class imbalances significantly improved model performance, esepecially for the minority class (negative emotions)e then  rem
 
 1. Handling class imbalances significantly improved model performance, especially for the minority class (negative emotions).
 
