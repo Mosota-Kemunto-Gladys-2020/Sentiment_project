@@ -1,5 +1,9 @@
 # Sentiment_project
-![header](Images/Introimage.jpg)
+
+<h1 align="center">
+  <img src="Images/Introimage.jpg" alt="header" style="width: 100%; max-width: 100%;" />
+</h1>
+
 
 ## 1. Project Overview
 
