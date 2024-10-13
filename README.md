@@ -33,6 +33,7 @@ In this project,we took sentiment as our target variable and tweets as our indep
 
 We also did a multiple classification  investigating effects of neutral sentiments. The following is a table for multiple classification:
 
+![alt text](sentimentdistribution.png)
 
 We then  removed class imbalances and the following is the summary of our results:
 
@@ -65,8 +66,6 @@ We then  removed class imbalances and the following is the summary of our result
 
 ### Results Summary Analysis:
 
-1. Handling class imbalances significantly improved model performance, esepecially for the minority class (negative emotions)e then  rem
-
 1. Handling class imbalances significantly improved model performance, especially for the minority class (negative emotions).
 
 2. In binary classification, SVM with class weighting performed best (Accuracy: 0.9054, F1 Score: 0.8973).
@@ -78,10 +77,12 @@ We then  removed class imbalances and the following is the summary of our result
 5. Neural Networks performed well in binary classification but lagged in multi-class scenarios.
 
 6. Use SVM with class weighting as the primary model for both binary and multi-class sentiment analysis tasks.
-![alt text](sentimentdistribution.png)
 
-Conclusion
-After processing the data and applying machine learning models, including Logistic Regression, Random Forest, and XGBoost, we were able to:
+
+## Conclusion
+
+After processing the data and applying machine learning models, including logistic Regression, Random Forest, and XGBoost, we were able to:
+
 
     Evaluate Model Performance: We assessed the models using accuracy, confusion matrices, and classification reports. This allowed us to determine how well each model performed in classifying the different sentiments.
     Hyperparameter Tuning: We optimized model parameters to improve predictive performance. The tuned models offered better accuracy and insights into sentiment classification.
